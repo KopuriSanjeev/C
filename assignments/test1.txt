@@ -1,0 +1,100 @@
+Assignment:
+--------------
+
+1. Write a C program to print first 50 Prime numbers.
+
+2. Write a C program to print lowest number in an Array.
+
+3. Write a C program to print top 2nd highest value in an Array.
+
+4. Write a C program to print number of values which are less than a particular number.
+
+5. Find the output of the below program
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int a = 300, b, c;
+	if(a >= 400)
+	    b = 300;
+	    c = 200;
+	    printf("\n %d %d",b,c);
+	
+	return 0;
+}
+
+6. 
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int a = 500, b, c;
+	if(a >= 400)
+	    b = 300;
+	    c = 200;
+	    printf("\n %d %d",b,c);
+	
+	return 0;
+}
+
+7. Find the output of the below program
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int a = 10, b = 20;
+	
+	if(a==b)
+	    printf("\n %d %d",a,b);
+	
+	return 0;
+}
+
+
+8. Find the output of the below program
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int a = 3, b = 5;
+	
+	if(a==3)
+	    printf("\n %d",a);
+	else ;
+	    printf("\n %d",b);
+	return 0;
+}
+
+9. Find the output of the below program
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int a = 3;
+	float b = 3.0;
+	
+	if(a==b)
+	    printf("Both %d and %f are equal",a,b);
+	else 
+	    printf("Both %d and %f are not equal",a,b);
+	return 0;
+}
+
+
+
+10. Find the output of the below program
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int a = 3;
+	
+	printf("\n %d ",a=10);
+	return 0;
+}
