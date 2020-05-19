@@ -1,0 +1,94 @@
+History of C.
+-------------
+
+1. constants, variables and data types:
+
+
+
+constant:  can't be changed.
+It is an value which doesn't change.
+eg: 10,15,20.5
+
+
+variable: can be changed
+It is a place holder/container of constants. This may vary.
+
+
+data type: type of variable we are giving. eg int
+
+
+
+constant.
+10	--> it will not change at all. pocket,wallet, purse etc.
+
+20
+50
+100
+
+purse/wallet :  contants values.  value in wallet will change.
+100
+500
+3000
+
+data type: 
+data type of a variable defines what type of data is going to be stored and how much space is required to store that variable.
+
+int a = 100 ;		integer data.	2 bytes of memory.
+
+int -> data type
+a -> variable
+100 - > constant.
+
+
+float b = 22.12;
+
+
+values should be stored in your computer.
+
+type of box
+space for that box
+
+--------------------------------------
+
+operators, operands
+
+eg: arithematic operator, + - * / %
+
+Operators:
+Operators are special symbols which perform some operation on operands.
+
+which can perform operations on operands.
+
+Operands:
+operands may be variables or constants on which operator performs some operation.
+
+a = b + 10;
+
++ -> operator.
+b , 10 -> operands.
+
+3 types of operators:
+
+1. Unary operator: which requires single operand.
+eg: 
+a = 10; --> assignment operator
+
+increment or decrement operator.
+a++;	// increase value of a by 1.
+
+b--;	// increase value of b by 1.
+
+
+2. Binary operator: which requires 2 operands.
+
+a = b + c ;
+
+3. Ternary operator: which requires 3 operands.
+eg: conditional operator:
+
+? : 
+
+int a = (10==20) ? 20 : 30 ;
+
+
+
