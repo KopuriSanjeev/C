@@ -90,5 +90,72 @@ eg: conditional operator:
 
 int a = (10==20) ? 20 : 30 ;
 
+-------------------------------------
 
 
+in conditions, 1 (any no other than 0) is treated as true
+0 is considered as false.
+
+#include <stdio.h>
+int main()
+{
+    if(-3)              // 1, 0, +ve, -ve
+        printf("if");
+    else    
+        printf("else");
+
+    return 0;
+}
+
+%d	-> int
+%f 	-> float
+
+signed -> -ve and +ve
+
+int  a;	signed
+
+unsigned -> +ve
+
+
+increment -> increases value by 1
+
+pre increment and post increment.
+
+pre increment -> first value will be incremented and rest of the operations later.		++a
+increment 
+a = 10+1 = 11
+next step is assigning value of a in to b -> 11
+
+post increment -> rest of operations first and increment last.							a++
+rest of operations first. assigning -> b = 10
+last operation is increment - > a = 10+1 = 11
+
+------------------------------------------------------
+
+
+condition statements:
+if 
+if else
+
+
+if(<statement which will return either true of false>)
+{
+	// true, if will be executed.
+
+}
+else
+{
+	// false, else will be executed.
+
+}
+
+standalone if is valid.
+standalone else with out if is invalid.
+
+
+1.	program is valid or not.
+syntatical mistakes. compilation issues.
+
+2.  run time errors.
+
+3. output
