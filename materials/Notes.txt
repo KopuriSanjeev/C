@@ -159,3 +159,56 @@ syntatical mistakes. compilation issues.
 2.  run time errors.
 
 3. output
+
+------------------------------------ Math.h and math functions -----------------------------------
+
+
+
+sqrt()	math.h	Calculates the square root of a floating-point value
+
+
+pow()	math.h	Returns the result of a floating-point value raised to a
+certain power
+
+abs()	stdlib.h	Returns the absolute value (positive value) of an integer
+
+
+floor()	math.h	Rounds up a floating-point value to the next whole number
+(nonfractional) value
+
+
+ceil()	math.h	Rounds down a floating-point value to the next whole
+number
+
+
+floor(2.5) -> 2.0
+floor(-2.5) -> -3.0
+ceil(2.5) - > 3.0
+ceil(-2.5) -> -2.0
+
+
+round(10.99) -> 11.0
+round(10.50) -> 11.0
+round(10.09) -> 10.0
+
+round(-10.99) -> -11.0
+
+
+absolute -> abs()
+Returns the absolute value (positive value) of an integer
+
+input		output
+
+5			5
+-5			5
+0			0
+
+
+
+
+Write a C program to determine whether a number is a perfect square or not.
+eg: 25 -> yes
+30 -> no
+
+
+----------------------------------------------------------------------------------------------
